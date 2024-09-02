@@ -1,0 +1,61 @@
+/* Change the value of display (flex and inline-flex) and see what happens */
+
+.container {
+  display: flex;
+  flex-direction: row; /* OTHER VALUES: column, row-reverse, column-reverse */
+  border: 1px solid #545454;
+  margin: 10px auto;
+}
+
+div {
+  width: 30px;
+  height: 90px;
+  border-radius: 20px;
+  margin: 10px;
+}
+
+#red {
+  background-color: #ff5757;
+}
+
+#gold {
+  background-color: #ffbd59;
+}
+
+#green {
+  background-color: #00bf63;
+}
+
+button {
+  font-family: Geneva, sans-serif;
+  font-weight: bold;
+  background-color: #545454;
+  color: whitesmoke;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 20px;
+}
+
+.names-container1 {
+	display: flex;
+    flex-direction: row;
+    /* Other styles here... */
+}
+
+.names-container2 {
+	display: flex;
+    flex-direction: column;
+    /* Other styles here... */
+}
+
+.names-container3 {
+	display: flex;
+    flex-direction: row-reverse;
+    /* Other styles here... */
+}
+
+.names-container4 {
+	display: flex;
+    flex-direction: column-reverse;
+    /* Other styles here... */
+}
